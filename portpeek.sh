@@ -7,7 +7,16 @@ end=$3
 mode=$4
 
 
-if [ "$1" = "--help" ];
+
+if [ "$1" = "version" ];
+then
+	echo "portpeek v0.5"
+exit 0
+fi
+
+
+
+if [ "$1" = "help" ];
 then
 echo "usage: ./portpeek.sh <host> <start> <end> [open] "
 echo ""

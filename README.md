@@ -10,11 +10,14 @@ A small Bash TCP port scanner for Linux.
 * Optional `open` mode to show only open ports
 * Simple command-line interface
 * Built-in help
-
+* built-in version 
 ## Usage
 
 ```bash
 ./portpeek.sh <host> <start> <end> [open]
+./portpeek.sh help
+./portpeek.sh version
+
 ```
 
 ## Examples
